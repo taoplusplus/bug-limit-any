@@ -1,0 +1,199 @@
+---
+_config: {}
+_project:
+  authors:
+    - ""
+  description: ""
+  name: Any% Bug Limit
+  url: ""
+  version: 0.1.0
+_route:
+  - (==) This is the current (2022-04-27) wr run by .link([LouLouCore]https://www.speedrun.com/user/LouLouCore), .link([video link]https://www.twitch.tv/videos/1468924123)
+  - Plateau:
+      - Exit SoR
+      - _Material<Bladed Rhino Beetle>:
+          coord: [-1028.03, 251.92, 1841.32]
+      - _Equipment::Weapon<Woodcutter's Axe>:
+          coord: [-920.93, 220.65, 1871.83]
+      - Run
+      - Pickup 5 Normal Arrow:
+          icon: bow
+          hide-icon-on-map: true
+      - Boko Bow:
+          icon: calamity
+          coord: [-616.14, 178.16, 1744.77]
+      - Boko Shield:
+          icon: calamity
+          coord: [-596.00, 172.51, 1702.50]
+      - _Tower::GreatPlateau
+      - Jump down
+      - Old Man:
+          comment: Text option 1-2-2-1
+          icon: king
+          hide-icon-on-map: true
+      - Run
+      - _Shrine::OmanAu
+      - Old Man:
+          comment: Text option 2-1-1-2
+          icon: king
+          hide-icon-on-map: true
+      - WARP
+      - _Warp::SOR
+      - Run
+      - _Material<3 Hylian Shroom>:
+          coord: [-1070.25, 249.55, 1805.05]
+      - Run, surf, climb:
+          coord: [-1370.5,1814]
+          notes: Ate 1 shroom
+      - _Shrine::KehNamut
+      - Surf, run
+      - _Shrine::OwaDaim
+      - Boulder launch -> tree launch
+      - _Shrine::JaBaij
+      - Run -> tree launch
+      - Paraglider:
+          icon: king
+          split-type: UserDefined
+          coord: [-809.33, 263.58, 1964.35]
+  - Castle:
+      - WARP
+      - _Warp::Shrine::OmanAu:
+          line-color: red
+      - Amiibo for attack food:
+          icon: tots
+          # hide-icon-on-map: true
+          coord: [-659.5,1503]
+      - Jump down
+      - Amiibo for Epona:
+          icon: tots
+          coord: [-669.5,1455.5]
+      - Ride:
+          coord: [-254,-275.5]
+      - Slab launch:
+          icon: tots
+          coord: [-45,-404]
+      - To .loc(Dining Hall):
+          coord: [-81.5,-835]
+      - _Equipment::Bow<Royal Bow>:
+          coord: [-119.40, 220.78, -843.17]
+      - _Material<Mighty Banana>:
+          coord: [-110.99, 210.55, -857.18]
+      - _Equipment::Weapon<Royal Guard's Spear>:
+          coord: [-85.65, 212.53, -882.24]
+      - Run:
+          notes: Behind breakable wall
+      - _Equipment::Weapon<Royal Guard's Sword>:
+          coord: [-173.94, 212.31, -890.87]
+      - _Equipment::Weapon<Rusty Claymore>:
+          hide-icon-on-map: true
+      - To .loc(Armory):
+          notes: Leave square bomb between barrels and pull Lizalfos out
+      - _Equipment::Bow<Royal Guard's Bow>:
+          coord: [-193.85, 196.33, -857.27]
+      - _Equipment::Weapon<Royal Claymore>:
+          hide-icon-on-map: true
+          notes: Sneakstrike moblin
+      - Break boxes for arrows:
+          icon: tots
+          hide-icon-on-map: true
+      - Glide up
+      - _Equipment::Weapon<Lizal Tri-Boomerang>:
+          coord: [-152.03, 211.33, -899.09]
+          notes: Senakstrike Lizalfos
+      - Run
+      - _Equipment::Weapon<Stone Smasher>:
+          hide-icon-on-map: true
+          notes: Throw bomb to distract moblins, sneakstrike the one with the Stone Smasher
+      - _Cook<Cook Attack Food>:
+          coord: [-153.58, 210.72, -812.60]
+      - Amiibo for metal boxes:
+          icon: tots
+          hide-icon-on-map: true
+      - Stasis launch:
+          icon: tots
+          notes: Use Rusty Claymore
+          coord: [-85.5,-831.25]
+      - Climb:
+          coord: [-254.00, 191.01, -1061.37]
+      - Sanctum:
+          icon: location
+          split-type: UserDefined
+  - Blights and Ganon:
+      - Windblight:
+          icon: calamity
+          hide-icon-on-map: true
+          split-type: UserDefined
+      # - .!!(Phase 1)
+      # - Royal Sword
+      # - Royal Claymore
+      # - .!!(Phase 2)
+      # - 2 Headshots
+      # - Royal Guard's Spear
+      - Waterblight:
+          icon: calamity
+          hide-icon-on-map: true
+          split-type: UserDefined
+      # - .!!(Phase 1)
+      # - Break Spear
+      # - Stone Smasher
+      # - .!!(Phase 2)
+      # - Headshot
+      # - Boomerang
+      # - .!!(Phase 3)
+      # - 2 Headshots
+      # - Stone Smasher
+      - Fireblight:
+          icon: calamity
+          hide-icon-on-map: true
+          split-type: UserDefined
+      # - .!!(Phase 1)
+      # - Stone Smasher
+      # - Royal Guard's Sword (break)
+      # - .!!(Phase 2)
+      # - Square Bomb
+      # - Boomerang
+      # - Royal Claymore
+      - Thunderblight:
+          icon: calamity
+          hide-icon-on-map: true
+          split-type: UserDefined
+      # - .!!(Phase 1)
+      # - Royal Claymore
+      # - Headshot
+      # - .!!(Phase 2)
+      # - Boomerang (at shield)
+      # - Headshot
+      # - Boomerang
+      # - Royal Claymore
+      - Calamity Ganon:
+          icon: ganon
+          split-type: UserDefined
+      # - .!!(Phase 1)
+      # - Headshot
+      # - Flurry rush
+      # - 5 Normal Arrow:
+      #     notes: Headshots as you're doing all this
+      # - _Equipment::Weapon<Royal Sword>:
+      #     hide-icon-on-map: true
+      # - 10 Bomb Arrow
+      # - _Equipment::Weapon<Royal Claymore>:
+      #     hide-icon-on-map: true
+      # - .!!(Phase 2)
+      # - Parry laser
+      # - Royal Sword
+      # - Stone Smasher:
+      #     notes: Begun stun lock
+      # - Royal Claymore
+      - Dark Beast Ganon:
+          icon: ganon
+          hide-icon-on-map: true
+          comment: Don't die
+          split-type: UserDefined
+
+
+
+
+
+
+
+
